@@ -342,10 +342,10 @@
     "semantic_hash": "ce8781f7f57b6d876df4def3937a1c05"
   },
   "src/database-connection/database-connection.controller.ts": {
-    "mtime": 1791144433.565078,
-    "seen": 1793992546.7122347,
-    "ast_hash": "5eb095bd7132083472bf431ba79041e5",
-    "semantic_hash": "5eb095bd7132083472bf431ba79041e5"
+    "mtime": 1794064999.9443107,
+    "seen": 1794065116.3450885,
+    "ast_hash": "8b4e0c8b48b4ec34f5c61cdd96f3afdb",
+    "semantic_hash": ""
   },
   "src/database-connection/database-connection.module.ts": {
     "mtime": 1790790420.7432735,
@@ -438,10 +438,10 @@
     "semantic_hash": "3b4db1fee5fbaf4de3bb18f88df03b52"
   },
   "src/main.ts": {
-    "mtime": 1791741173.701488,
-    "seen": 1793992546.7122347,
-    "ast_hash": "9ac2dd58f395f086e1249f62f8d57a43",
-    "semantic_hash": "9ac2dd58f395f086e1249f62f8d57a43"
+    "mtime": 1794064950.6058342,
+    "seen": 1794065116.3450885,
+    "ast_hash": "58007bf466cfc1a2a4578fcf012a920c",
+    "semantic_hash": ""
   },
   "src/notifications/notifications.module.ts": {
     "mtime": 1791142043.7224112,
@@ -864,8 +864,8 @@
     "semantic_hash": "e3177b0f37274bf9f505fcf4bb556427"
   },
   "src/products/products.service.ts": {
-    "mtime": 1794036185.051153,
-    "seen": 1794037015.2612154,
+    "mtime": 1794037063.9351761,
+    "seen": 1794065116.3450885,
     "ast_hash": "cb003b8baec2f971bff3716cb266d189",
     "semantic_hash": ""
   },
@@ -1306,5 +1306,17 @@
     "seen": 1793992546.7122347,
     "ast_hash": "44cf481116a3bdc870cdf18fee289f9e",
     "semantic_hash": "44cf481116a3bdc870cdf18fee289f9e"
+  },
+  "docker-compose.yml": {
+    "mtime": 1794065073.1746368,
+    "seen": 1794065116.3450885,
+    "ast_hash": "378fca1204c418f26d7f96ef6948d269",
+    "semantic_hash": ""
+  },
+  "railway.json": {
+    "mtime": 1794065063.6739657,
+    "seen": 1794065116.3450885,
+    "ast_hash": "cffdcea4cc2bd34893893934b4ff6a27",
+    "semantic_hash": ""
   }
 }

@@ -15,4 +15,16 @@ export class DatabaseConnectionController {
   async getStatus() {
     return this.dbService.checkConnection();
   }
+
+  @Public()
+  @Get('health')
+  @ApiOperation({ summary: 'Liveness and health check endpoint' })
+  @ApiResponse({ status: 200, description: 'Service is alive and healthy' })
+  getHealth() {
+    return {
+      status: 'ok',
+      uptime: process.uptime(),
+      timestamp: new Date().toISOString(),
+    };
+  }
 }

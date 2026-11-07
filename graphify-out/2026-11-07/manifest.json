@@ -864,10 +864,10 @@
     "semantic_hash": "e3177b0f37274bf9f505fcf4bb556427"
   },
   "src/products/products.service.ts": {
-    "mtime": 1793365255.5415373,
-    "seen": 1793992546.7122347,
-    "ast_hash": "4de79f01ef32678a366b4d41502e0ee0",
-    "semantic_hash": "4de79f01ef32678a366b4d41502e0ee0"
+    "mtime": 1794036185.051153,
+    "seen": 1794037015.2612154,
+    "ast_hash": "cb003b8baec2f971bff3716cb266d189",
+    "semantic_hash": ""
   },
   "src/returns/controllers/admin-returns.controller.ts": {
     "mtime": 1791144256.3634768,

@@ -11,7 +11,7 @@ COPY package.json ./
 COPY bun.lock* package-lock.json* ./
 
 # Install all dependencies (including devDependencies for NestJS compilation)
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy application source code and compiler configurations
 COPY tsconfig*.json nest-cli.json ./
@@ -21,7 +21,7 @@ COPY src ./src
 RUN npm run build
 
 # Remove devDependencies to produce a lean production node_modules
-RUN npm prune --omit=dev
+RUN npm prune --omit=dev --legacy-peer-deps
 
 # ── Stage 2: Production Runner ──────────────────────────────────────────────
 FROM node:22-alpine AS runner

@@ -1,0 +1,4 @@
+export enum PayoutMethod {
+  BANK_TRANSFER = 'BANK_TRANSFER',
+  STRIPE_CONNECT = 'STRIPE_CONNECT',
+}
